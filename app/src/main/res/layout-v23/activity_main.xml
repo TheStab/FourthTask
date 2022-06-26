@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingStart="32dp"
+    android:background="@drawable/gradient_background"
+    tools:context=".MainActivity"
+    tools:ignore="RtlSymmetry">
+
+    <ImageView
+        android:id="@+id/rectangle"
+        android:layout_width="45dp"
+        android:layout_height="43dp"
+        android:background="@drawable/green_gradient"
+        android:layout_marginTop="139dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="@string/hello"
+        android:textColor="@color/white"
+        android:textSize="42sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="9dp"
+        android:text="@string/lets_introduce"
+        android:textColor="@color/lets_introduce"
+        android:textSize="24sp" />
+
+    <ImageView
+        android:layout_width="38dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="37dp"
+        android:background="@drawable/profile_background"
+        android:foreground="@drawable/ic_person"/>
+
+</LinearLayout>
